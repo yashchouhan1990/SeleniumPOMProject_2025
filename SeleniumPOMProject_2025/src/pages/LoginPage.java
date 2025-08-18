@@ -31,15 +31,15 @@ public class LoginPage {
 		usernameTextBox.clear();
 		usernameTextBox.sendKeys(username);
 		
-//		driver.findElement(usernameTextBox.clear());
-//		driver.findElement((usernameTextBox).sendKeys(username));
+//		driver.findElement(usernameTextBox).clear();
+//		driver.findElement(usernameTextBox).sendKeys(username);
 	}
 	
 	public void enterPassword(String password) {
 		passwordTextBox.clear();
 		passwordTextBox.sendKeys(password);
-//		driver.findElement(passwordTextBox.clear());
-//		driver.findElement((passwordTextBox).sendKeys(password));
+//		driver.findElement(passwordTextBox).clear();
+//		driver.findElement(passwordTextBox).sendKeys(password);
 		
 	}
 	
